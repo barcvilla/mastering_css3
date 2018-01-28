@@ -1,12 +1,53 @@
+section
+{
+    margin: 50px;
+}
+
+h1
+{
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #0072ae;
+    background-color: black;
+    padding: 50px;
+    margin: 50px;
+    border: 10px solid blue; 
+    /*
+    display: none;
+     */
+}
+
+.alt-headline
+{
+    font-size: 40px;
+}
+
 h2
 {
     font-size: 26px;
     font-style: italic;
     color:deeppink;
     margin-bottom: 10px;
+    background: black;
+    /*width: 300px;
+    padding: 50px;
+    border: 10px solid blue;
+    margin: 10px solid red;
+    box-sizing: border-box; */
 }
 
 p
 {
     font: normal normal 18px/1.6 Georgia, 'Times New Roman', serif;
+}
+
+span
+{
+    display: block;
+    background-color: green;
+    /* estas propiedades no tienen efecto en un
+    elemento Inline */
+    width: 100px;
+    margin-top: 10px;
 }
